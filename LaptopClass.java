@@ -4,7 +4,9 @@ public class LaptopClass {
     int price;
 
     void showdetail(){
-        System.out.println("these are the details..");
+        System.out.println("Name is: "+ name);
+        System.out.println("brand is: "+ brand);
+        System.out.println("price is: "+ price);
     }
 
 
@@ -18,12 +20,8 @@ public class LaptopClass {
         l2.brand ="ASUS";
         l2.price =60000;
         l1.showdetail();
-        System.err.println("The name is laptop is "+ l1.name);
-        System.err.println("The brand of laptop is "+ l1.brand);
-        System.err.println("The price of laptop is "+ l1.price);
-        System.err.println("The name is laptop is "+ l2.name);
-        System.err.println("The brand of laptop is "+l2.brand);
-        System.err.println("The price of laptop is "+l2.price);
+        System.out.println();
+        l2.showdetail();
 
         
         
